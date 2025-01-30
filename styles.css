@@ -134,6 +134,7 @@ p1{
     font-weight: 700;
     text-align: center;
     font-size: 60px;
+    margin: 15px;
 }
 
 p2 {
@@ -141,6 +142,7 @@ p2 {
     font-weight: 700;
     text-align: center;
     font-size: 30px;
+    margin: 15px;
 }
 
 p3{
@@ -151,6 +153,7 @@ p3{
     width: 800px;
     font-size: 20px;
     height: auto;
+    margin: 15px;
 }
 
 p4 {
@@ -158,15 +161,17 @@ p4 {
     font-weight: 700;
     text-align: center;
     font-size: 30px;
+    margin: 15px;
 }
 
 bigText{
     font-size: 50px;
-
+    margin: 15px;
 }
 
 footer
 {
     font-family: "Space Grotesk", serif;
     font-weight: 700;
+    margin: 15px;
 }
