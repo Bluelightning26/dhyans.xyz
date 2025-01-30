@@ -1,3 +1,4 @@
+
 .orbitron-font {
                font-family: "Orbitron", serif;
                font-optical-sizing: auto;
@@ -11,6 +12,7 @@
                     font-weight: 900;
                     font-style: normal;
                 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -37,6 +39,7 @@ h1 {
     font-family: "Orbitron", serif;
     font-weight: 700;
 }
+
 .navbar__container{
     background-color: #b586e8;
     display: flex;
@@ -122,18 +125,22 @@ h1 {
     transition: 0.3s linear;
 }
 
+img{
+    padding: 10px;
+}
+
 p1{
     font-family: "Orbitron", serif;
     font-weight: 700;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 p2 {
     font-family: "Space Grotesk", serif;
     font-weight: 700;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 p3{
@@ -142,7 +149,20 @@ p3{
     font-weight: 700;
     display: inline-block;
     width: 800px;
+    font-size: 20px;
     height: auto;
+}
+
+p4 {
+    font-family: "Space Grotesk", serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+}
+
+bigText{
+    font-size: 50px;
+
 }
 
 footer
