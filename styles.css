@@ -7,13 +7,13 @@
            }
 
 .space-grotesk-font {
-                    font-family: "Space Grotesk", serif;
-                    font-optical-sizing: auto;
-                    font-weight: 900;
-                    font-style: normal;
+                font-family: "Space Grotesk", serif;
+                font-optical-sizing: auto;
+                font-weight: 900;
+                font-style: normal;
                 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -21,9 +21,37 @@
     color: white;
 }
 
+/* Does not currently work-> idk why*/
+@keyframes slideInLeft {
+
+    from {
+        transform: translateX(-300px);
+
+    }
+
+    to {
+        transform: translateX(+300px);
+    }
+
+}
+.intro {
+    animation-name: slideInLeft;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
 h1 {
     color: #fd7676;
     font-family: "Space Grotesk", cursive;
+}
+
+.intro:hover {
+    color: #ff3;
+    transition: 0.3s linear;
 }
 
 .navbar {
@@ -164,14 +192,60 @@ p4 {
     margin: 15px;
 }
 
+/* Does not currently work*/
+p4:hover{
+    color: #4873ff;
+    image: linear-gradient(to right, #ffffff 100%, #d290d7 0%);
+}
+
 bigText{
     font-size: 50px;
     margin: 15px;
 }
 
-footer
-{
+footer {
     font-family: "Space Grotesk", serif;
     font-weight: 700;
     margin: 15px;
+}
+
+.subdomain-button {
+    font-family: "Space Grotesk", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 30%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #f77201;
+    color: #fff;
+}
+
+.subdomain-button:hover{
+    background-color: #4873ff;
+    transition: 0.3s linear;
+}
+
+.subdomain-button-soon {
+    font-family: "Space Grotesk", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 30%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #f70101;
+    color: #fff;
+}
+.subdomain-button-soon:hover{
+    background-color: #ffb648;
+    transition: 0.3s linear;
 }

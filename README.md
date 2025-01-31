@@ -14,14 +14,19 @@ and is the first web project I am really excited about.
 ## Features
 - Custom .xyz domain
 - Custom email addresses
+-  All received emails will be scanned by DuckDuckGo
 - Custom Subdomains: ex. [winter.dhyans.xyz](https://winter.dhyans.xyz)
 - Cool Fonts from Google Fonts
 - SVG Icons
   - All with -i8 in the icon name are from icons8.com !
 - HTML Custom Tags with CSS (I didn't know this was possible before!)
+- Color changing buttons
+- 
 
 ## Future
 I will keep expanding on the project as I am finding it fun to try new things and 
 experiment through design, something that is not too common in Java.
+
+More sites for various topics will be hosted on subdomains on my website!
 
 [dhyans.xyz](https://dhyans.xyz)
