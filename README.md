@@ -21,7 +21,7 @@ and is the first web project I am really excited about.
   - All with -i8 in the icon name are from icons8.com !
 - HTML Custom Tags with CSS (I didn't know this was possible before!)
 - Color changing buttons
-- 
+- Links to headings
 
 ## Future
 I will keep expanding on the project as I am finding it fun to try new things and 

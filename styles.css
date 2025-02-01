@@ -249,3 +249,22 @@ footer {
     background-color: #ffb648;
     transition: 0.3s linear;
 }
+
+p5{
+    margin: 15px;
+    font-family: "Space Grotesk", serif;
+    font-weight: 700;
+    display: inline-block;
+    width: 800px;
+    font-size: 30px;
+    height: auto;
+    margin: 15px;
+}
+
+p6{
+    font-family: "Space Grotesk", serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+}
