@@ -19,6 +19,11 @@
     padding: 0;
     background-color: #5e606c;
     color: white;
+
+}
+
+*::selection {
+    color: rgba(0, 0, 0, 0.8);
 }
 
 /* Does not currently work-> idk why*/
@@ -155,6 +160,7 @@ h1 {
 
 img{
     padding: 10px;
+    border-radius: 5%;
 }
 
 p1{
@@ -192,9 +198,9 @@ p4 {
     margin: 15px;
 }
 
-/* Does not currently work*/
+
 p4:hover{
-    color: #4873ff;
+    color: #ffb648;
     image: linear-gradient(to right, #ffffff 100%, #d290d7 0%);
 }
 
@@ -251,20 +257,34 @@ footer {
 }
 
 p5{
+    font-size: 35px;
     margin: 15px;
     font-family: "Space Grotesk", serif;
     font-weight: 700;
     display: inline-block;
     width: 800px;
-    font-size: 30px;
     height: auto;
-    margin: 15px;
+    color: #82d2ef;
+}
+
+.language{
+    color: #a3acff;
+    font-size: 30px;
 }
 
 p6{
     font-family: "Space Grotesk", serif;
     font-weight: 700;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     margin: 15px;
+    color: #ffb648;
 }
+
+p6:hover{
+    color: rgba(255, 182, 72, 0.56);
+    transition: 0.5s;
+    background-color: rgba(94, 96, 108, 0.28);
+    font-size : 70px;
+}
+
