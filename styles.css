@@ -279,6 +279,7 @@ p6{
     font-size: 60px;
     margin: 15px;
     color: #ffb648;
+    text-decoration: underline;
 }
 
 p6:hover{
