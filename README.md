@@ -13,6 +13,7 @@ and is the first web project I am really excited about.
 
 ## Features
 - Custom .xyz domain
+- Basic protections from CloudFlare
 - Custom email addresses
 -  All received emails will be scanned by DuckDuckGo
 - Custom Subdomains: ex. [winter.dhyans.xyz](https://winter.dhyans.xyz)
@@ -23,6 +24,7 @@ and is the first web project I am really excited about.
 - Color changing buttons
 - Links to headings
 - 404 Page!
+
 
 ## Future
 I will keep expanding on the project as I am finding it fun to try new things and 
