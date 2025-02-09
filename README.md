@@ -3,12 +3,12 @@
 ***
 ## My first personal website with a custom domain!
 
-Unlike my websites of the past, this one looks decent in my opinion.
+My first nice looking website! (unlike ones of the past)
 
 I learned a lot about web hosting when developing this, 
-and how CloudFlare and Gmail work on a deeper level. 
-I am excited to expand on this in the future,
-and is the first web project I am really excited about.
+and how CloudFlare and Gmail work on a deeper level.
+This is the first web project I am really excited about,
+and will expand this in the future!
 (I normally stick to languages like Java :P)
 
 ## Features
