@@ -15,7 +15,7 @@ and will expand this in the future!
 - Custom .xyz domain
 - Basic protections from CloudFlare
 - Custom email addresses
--  All received emails will be scanned by DuckDuckGo
+- All incoming emails will be scanned by DuckDuckGo
 - Custom Subdomains: ex. [winter.dhyans.xyz](https://winter.dhyans.xyz)
 - Cool Fonts from Google Fonts
 - SVG Icons
