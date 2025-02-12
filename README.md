@@ -18,6 +18,7 @@ and will expand this in the future!
 - All incoming emails will be scanned by DuckDuckGo
 - Custom Subdomains: ex. [winter.dhyans.xyz](https://winter.dhyans.xyz)
 - Cool Fonts from Google Fonts
+- Logos designed by me :)
 - SVG Icons
   - All with -i8 in the icon name are from icons8.com !
 - HTML Custom Tags with CSS (I didn't know this was possible before!)
