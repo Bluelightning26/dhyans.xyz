@@ -3,7 +3,7 @@
 ***
 ## My first personal website with a custom domain!
 
-My first nice looking website! (unlike ones of the past)
+**My first nice looking website!**
 
 I learned a lot about web hosting when developing this, 
 and how CloudFlare and Gmail work on a deeper level.
@@ -27,7 +27,10 @@ and will expand this in the future!
 - 404 Page!
 
 
+
 ## Future
+- Games to Come!
+
 I will keep expanding on the project as I am finding it fun to try new things and 
 experiment through design, something that is not too common in Java.
 
