@@ -1,1 +1,1 @@
-# All redirects go here
+# All redirecting links go here
