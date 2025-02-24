@@ -162,7 +162,14 @@ img{
     padding: 10px;
     border-radius: 5%;
 }
+img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(253, 185, 39, 0.8);
+}
 p1{
     font-family: "Orbitron", serif;
     font-weight: 700;
