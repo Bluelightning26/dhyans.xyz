@@ -36,4 +36,6 @@ experiment through design, something that is not too common in Java.
 
 More sites for various topics will be hosted on subdomains on my website!
 
+More Domains Coming Soon... 👀
+
 [dhyans.xyz](https://dhyans.xyz)
