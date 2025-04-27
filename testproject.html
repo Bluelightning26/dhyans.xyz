@@ -16,91 +16,74 @@
 </head>
 
 <body>
-<!-- Github Copilot to the rescue! (Javascript boilerplate by Github Copilot) -->
-<script>
-    async function loadYAML() {
-        try {
-            const response = await fetch('project.yaml');
-            if (!response.ok) throw new Error('Failed to fetch YAML file');
-            const data = jsyaml.load(await response.text());
-            const project = data.projects['january-25'][0];
 
-            document.querySelector('.name').textContent = `${project.name || 'Name not found'}`;
-            document.querySelector('.language').textContent = `Language: ${project.language || 'Language not found'}`;
-            document.querySelector('.description').textContent = `Description: ${project.description || 'Description not found'}`;
-            document.querySelector('.subdomain-button').href = project.source || '#';
-            document.querySelector('.project-image').src = project.image || '';
-            document.querySelector('.demo-link').href = project.demo || '#';
-        } catch (error) {
-            console.error('Error loading YAML:', error);
-        }
-    }
-    loadYAML();
-</script>
+<script src="index.js"></script>
 
-<h1>This is a testing page to help me learn YAML and is not meant to be used/stable. <br>
-    The plan is to eventually replace the large HTML content on the projects page that is tedious to maintain with a
-    simpler interface using .yml .
-</h1>
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="navbar__container">
 
-<br><br><br><br>
-<hr style="width:20%; border-color: white; border-radius: 10px; border-style: dashed; border-width: 2px;">
-<br><br><br><br>
+        <a href="https://dhyans.xyz" id="navbar__logo">
+            <img src="media/assets/svg/No-Background-1080.svg"
+                 alt="dhyans.xyz" style="width:125%; height:125%; background-clip: inherit; margin-top: 1px;"></a>
+
+        <ul class="navbar__menu">
+
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">Home</a>
+            </li>
+
+            <li class="navbar__item">
+                <a href="project" class="navbar__links">Projects</a>
+            </li>
+
+            <li class="navbar__item">
+                <a href="game" class="navbar__links">Games</a>
+            </li>
+
+            <li class="navbar__item">
+                <a href="subdomain" class="navbar__links">Subdomains</a>
+            </li>
+
+            <li class="navbar__btn">
+                <a href="mailto:help@dhyans.xyz" class="button">Contact Me!</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+
+<br>
+<p1 class="intro"> <center> Projects </center></p1>
+<br><br>
+
+<center>
+
+    <p2> Visit my GitHub for a comprehensive look at my projects</p2>
 </center>
 
+<center>
+    <a href="https://github.com/bluelightning26">
+        <img src="media/images/icons/tech/github-i8.svg" alt="My Github" style="width:5%; height:5%;">
+    </a>
 
-<p5>
-    <div class="name" style="padding-bottom: 0.5em" ></div>
-    <div class="language"></div>
-</p5>
-<a href="#" class="demo-link">
-    <img src="" alt="Project Image" class="project-image" style="float: right; width: 25%; height:25%;">
-</a>
-<p3>
-    <a href="#" class="subdomain-button">View Source Code</a>
-    <br>
-    <div class="description"></div>
-</p3>
-<br><br><br><br><br>
+    <hr style="width:20%; border-color:mediumpurple;">
+    <br><br><br><br>
+</center>
 
+<center>
+    <p3> Projects are sorted by their first ship onto GitHub</p3>
+</center>
 
-
-<h1>New JS</h1>
-<script>
-    async function loadYAML() {
-        try {
-            const response = await fetch('project.yaml');
-            if (!response.ok) throw new Error('Failed to fetch YAML file');
-            const data = jsyaml.load(await response.text());
-
-            const projects = data.projects;
-            const container = document.body;
-
-            Object.values(projects).forEach(projectList => {
-                projectList.forEach(project => {
-                    const section = document.createElement('section');
-                    section.innerHTML = `
-                        <p5>
-                        <div class="name" style="padding-bottom: 0.5em">${project.name || 'Name not found'}</div>
-
-                        <div class="language">Language: ${project.language || 'Language not found'}</div>
-                        </p5>
-                        <a href="${project.demo || '#'}" class="demo-link">
-                            <img src="${project.image || ''}" alt="Project Image" class="project-image" style="float: right; width: 25%; height: 25%;">
-                        </a>
-                        <p3>
-                         <a href="${project.source || '#'}" class="subdomain-button" style="margin-bottom: 1em">View Source Code</a>
-                        <div class="description" style="margin-bottom: 5em">${project.description || 'Description not found'}</div>
-                        </p3>
-                        <hr style="width:20%; border-color: white; border-radius: 10px; border-style: dashed; border-width: 2px; margin-bottom: 5em">
-                    `;
-                    container.appendChild(section);
-                });
-            });
-        } catch (error) {
-            console.error('Error loading YAML:', error);
-        }
-    }
-    loadYAML();
-</script>
+<br><br><br>
+<center>
+    <a href="project.html#November2024"><p4> November 2024</p4></a>
+    <a href="project.html#December2024"><p4> December 2024</p4></a>
+    <a href="project.html#January2025"><p4> January 2025</p4></a>
+    <a href="project.html#February2025"><p4> February 2025</p4></a>
+    <a href="project.html#March2025"><p4> March 2025</p4></a>
+    <a href="project.html#April2025"><p4> April 2025</p4></a>
+</center>
+    <script src="project.js"></script>
 </body>

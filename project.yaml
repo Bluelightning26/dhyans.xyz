@@ -1,22 +1,17 @@
-#Rough format
-
-# Month:
-  # Title:
-    # Language:
-    # Description:
-    # Source Code:
-    # Image:
-    # Demo Link:
-  # Title:
-    # Language:
-    # Description:
-    # Source Code:
-    # Image:
-    # Demo Link:
+#Format
+#projects:
+#  month-year:
+#    - name:
+#      language:
+#      description: >
+#        (text goes here)
+#      image:
+#      demo:
+#      source:
 
 ---
 projects:
-  january-25:
+  test:
     - name: Party
       language: Java
       description: >
@@ -36,3 +31,164 @@ projects:
       demo: https://forms.hackclub.com/swirl
       source: https://github.com/bluelightning26/project
 
+  november-24:
+
+    - name: Reach the End! (Multiplayer) Game designed for the Sprig Console!
+      language: Javascript
+      description: >
+        Fight your way to the opposing player's end-zone while they push back,
+        the twine will get shorter with more pushes when your opponent is in their own end-zone.
+        To prevent your opponent from ruthlessly pushing you, freeze their controls!
+        This can be done five times by each player and lasts half a second.
+        This is a two player game,
+        designed to be simple while taking advantage of the Sprig’s layout.
+      image: https://cdn.hackclubber.dev/slackcdn/c99ed0cd8bec79eed23c3b27917f6768.png
+      demo:
+      source: https://github.com/Bluelightning26/sprig/
+
+    - name: Unfolding the Progression of Virtual Reality
+      language: HTML + CSS
+      description: >
+        This website attempts to inform the reader about virtual reality.
+        Especially before the modern types we have and know of today!
+        This is the first website I have made!
+      image: media/images/projects/unfoldingTheProgressionOfVirtualReality.png
+      demo:
+      source: https://github.com/Bluelightning26/Virtual-Reality-Progression/
+
+    - name: GPA Calculator!
+      language: Java
+      description: >
+        A handy unweighted GPA calculator I made in Java,
+        you can enter the number of classes you take,
+        how many credits each class is worth and your letter grade in each class for your custom GPA!
+        An updated version of this project has been made with a GUI!
+      image: https://cloud-bqpuwsrqf-hack-club-bot.vercel.app/0gpa_calc_.png
+      demo:
+      source: https://github.com/Bluelightning26/GPA-Calculator
+
+    - name: Password Strength Meter!
+      language: Java
+      description: >
+        Check if your passwords are strong using the Java Password Strength Meter!
+        This uses recommendations from security.org to guide you!
+      image: https://cloud-ogcgujcgz-hack-club-bot.vercel.app/0gpa_calc_.png
+      demo:
+      source: https://github.com/Bluelightning26/Password-Strength-Meter
+
+    - name: Quotes of the Day!
+      language: Java
+      description: >
+        Quotes are a great way to motivate us!
+        They help inspire us to become better versions of ourselves and look up when things aren't going our way.
+        I hope you enjoy!
+      image: https://cloud-ht4rgv45a-hack-club-bot.vercel.app/0qotd.png
+      demo:
+      source: https://github.com/Bluelightning26/QOTD
+
+    - name: Guess the Number!
+      language: Java
+      description: >
+        Choose the difficulty and guess the randomly generated number!
+        You get three tries and hints saying if it is higher or lower, good luck!
+      image: https://cloud-dlydeok7e-hack-club-bot.vercel.app/0numguess.png
+      demo:
+      source: https://github.com/Bluelightning26/NumberGuess_HighSeas
+
+    - name: Rock Paper Scissors!
+      language: Java
+      description: >
+        Play Rock Paper Scissors VS the CPU!
+        With the choice of three game modes (one and done, best of three, and first to three)
+        there is plenty of fun to be had!
+      image: https://cloud-8y8utn31s-hack-club-bot.vercel.app/0rps.png
+      demo:
+      source: https://github.com/Bluelightning26/Rock-Paper-Scissors
+
+    - name: True False Trivia (CLI)
+      language: Java
+      description: >
+        A trivia game in Java!
+        Choose the question genre and answer 3 random questions of the library filled with 24 questions
+        by typing true or false! More genres and questions coming soon!
+        <br>
+        Note, this project was rewritten the following January with a focus on a GUI!
+      image: https://cloud-q8l5eqnpe-hack-club-bot.vercel.app/0truefalsetrivia.png
+      demo:
+      source: https://github.com/Bluelightning26/True-False-Trivia/tree/4f48efa03fa61e2232d2bab5ebc90f00ac1c0da1
+
+    - name: 23 The Game
+      language: Java
+      description: >
+        Count up between one and three more numbers each turn,
+        but don't be the one to say 23! Good luck, the CPU isn't out to get you...
+        but if you make a mistake later on in the game it will pounce on it and devour the win!
+      image: https://cloud-oehglk7mj-hack-club-bot.vercel.app/0numguess.gif
+      demo:
+      source: https://github.com/Bluelightning26/23
+
+    - name: Hangman Minecraft Edition
+      language: Java
+      description: >
+        You can only get 7 letters wrong before the creeper blows you up...
+        are you sure you can guess the right Minecraft related word?
+        Play to find out!
+      image: https://cloud-anyzg80jd-hack-club-bot.vercel.app/0hangman.gif
+      demo:
+      source: https://github.com/Bluelightning26/Hangman-Minecraft-Edition
+
+    - name: Strong Password Generator
+      language: Java
+      description: >
+        Ditch your old, weak password
+        and generate a new, strong password that has all the requirements for a great one!
+        With 18 characters, numbers, symbols, and both cases
+        it's hard for people to memorize while peaking over your shoulder!
+      image: https://cloud-o10u70v9w-hack-club-bot.vercel.app/0passgen.gif
+      demo:
+      source: https://github.com/Bluelightning26/Password-Generator
+
+  december-24:
+
+    - name: Flip a coin and Gamble!
+      language: Java
+      description: >
+        Flip the coin and bet away your $100!
+        You have 6 tries to get as much money as possible...
+        my PR as a final score is $451 can you beat that?!!
+        Good Luck!
+      image: https://cloud-eein7luew-hack-club-bot.vercel.app/0coin_.gif
+      demo:
+      source: https://github.com/Bluelightning26/Coin-Gamble
+
+    - name:
+      language:
+      description: >
+        (text goes here)
+      image:
+      demo:
+      source:
+
+    - name:
+      language:
+      description: >
+        (text goes here)
+      image:
+      demo:
+      source:
+
+    - name:
+      language:
+      description: >
+        (text goes here)
+      image:
+      demo:
+      source:
+
+    - name:
+      language:
+      description: >
+        (text goes here)
+      image:
+      demo:
+      source:
