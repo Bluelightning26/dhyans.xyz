@@ -12,12 +12,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 </head>
 
-
-
 <body>
+<!-- Github Copilot to the rescue! (Javascript boilerplate by Github Copilot) -->
+<script>
+    // Function to load and parse YAML, then update HTML
+    async function loadYAML() {
+        try {
+            // Fetch the YAML file
+            const response = await fetch('project.yaml');
+            if (!response.ok) {
+                throw new Error('Failed to fetch YAML file');
+            }
+            // Parse the YAML content
+            const yamlText = await response.text();
+            const data = jsyaml.load(yamlText);
+
+            // Extract fields
+            const project = data.projects['january-25'][0];
+            const nameField = project.name || 'Name not found';
+            const languageField = project.language || 'Language not found';
+            const descriptionField = project.description || 'Description not found';
+            const sourceField = project.source || '#';
+            const imageField = project.image || '';
+            const demoField = project.demo || '#';
+
+            // Update HTML
+            document.querySelector('.name').innerHTML = `Name: ${nameField}`;
+            document.querySelector('.language').innerHTML = `Language: ${languageField}`;
+            document.querySelector('.description').innerHTML = `Description: ${descriptionField}`;
+            document.querySelector('.subdomain-button').setAttribute('href', sourceField);
+            document.querySelector('.project-image').setAttribute('src', imageField);
+            document.querySelector('.demo-link').setAttribute('href', demoField);
+        } catch (error) {
+            console.error('Error loading YAML:', error);
+        }
+    }
+    loadYAML();
+</script>
 
 <h1>This is a testing page to help me learn YAML and is not meant to be used/stable. <br>
     The plan is to eventually replace the large HTML content on the projects page that is tedious to maintain with a
@@ -31,21 +65,17 @@
 
 
 <p5>
-    More To Come!
+    <div class="name"></div>
     <br><br>
-    <div class="language">
-        Languages: Who Knows?
-    </div>
+    <div class="language"></div>
 </p5>
-<a href="https://github.com/Bluelightning26/">
-    <img src="https://cloud-i203j2e6a-hack-club-bot.vercel.app/1confused_dinosaur.png" alt="proj icon" style="float: right; width: 25%; height:25%;">
+<a href="#" class="demo-link">
+    <img src="" alt="Project Image" class="project-image" style="float: right; width: 25%; height:25%;">
 </a>
 <p3>
-    <a href="" class="subdomain-button">View Source Code!?! </a>
-
+    <a href="#" class="subdomain-button">View Source Code!?!</a>
     <br>
-    That's Orpheus!
-
+    <div class="description"></div>
 </p3>
 <br><br><br><br><br>
 
