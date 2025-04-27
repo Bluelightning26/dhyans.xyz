@@ -18,34 +18,19 @@
 <body>
 <!-- Github Copilot to the rescue! (Javascript boilerplate by Github Copilot) -->
 <script>
-    // Function to load and parse YAML, then update HTML
     async function loadYAML() {
         try {
-            // Fetch the YAML file
             const response = await fetch('project.yaml');
-            if (!response.ok) {
-                throw new Error('Failed to fetch YAML file');
-            }
-            // Parse the YAML content
-            const yamlText = await response.text();
-            const data = jsyaml.load(yamlText);
-
-            // Extract fields
+            if (!response.ok) throw new Error('Failed to fetch YAML file');
+            const data = jsyaml.load(await response.text());
             const project = data.projects['january-25'][0];
-            const nameField = project.name || 'Name not found';
-            const languageField = project.language || 'Language not found';
-            const descriptionField = project.description || 'Description not found';
-            const sourceField = project.source || '#';
-            const imageField = project.image || '';
-            const demoField = project.demo || '#';
 
-            // Update HTML
-            document.querySelector('.name').innerHTML = `${nameField}`;
-            document.querySelector('.language').innerHTML = `Languages: ${languageField}`;
-            document.querySelector('.description').innerHTML = `${descriptionField}`;
-            document.querySelector('.subdomain-button').setAttribute('href', sourceField);
-            document.querySelector('.project-image').setAttribute('src', imageField);
-            document.querySelector('.demo-link').setAttribute('href', demoField);
+            document.querySelector('.name').textContent = `${project.name || 'Name not found'}`;
+            document.querySelector('.language').textContent = `Language: ${project.language || 'Language not found'}`;
+            document.querySelector('.description').textContent = `Description: ${project.description || 'Description not found'}`;
+            document.querySelector('.subdomain-button').href = project.source || '#';
+            document.querySelector('.project-image').src = project.image || '';
+            document.querySelector('.demo-link').href = project.demo || '#';
         } catch (error) {
             console.error('Error loading YAML:', error);
         }
@@ -78,4 +63,44 @@
 </p3>
 <br><br><br><br><br>
 
+
+
+<h1>New JS</h1>
+<script>
+    async function loadYAML() {
+        try {
+            const response = await fetch('project.yaml');
+            if (!response.ok) throw new Error('Failed to fetch YAML file');
+            const data = jsyaml.load(await response.text());
+
+            const projects = data.projects;
+            const container = document.body;
+
+            Object.values(projects).forEach(projectList => {
+                projectList.forEach(project => {
+                    const section = document.createElement('section');
+                    section.innerHTML = `
+                        <p5 xmlns="http://www.w3.org/1999/html">
+                        <div class="name" style="padding-bottom: 0.5em">${project.name || 'Name not found'}</div>
+
+                        <div class="language">Language: ${project.language || 'Language not found'}</div>
+                        </p5>
+                        <a href="${project.demo || '#'}" class="demo-link">
+                            <img src="${project.image || ''}" alt="Project Image" class="project-image" style="float: right; width: 25%; height: 25%;">
+                        </a>
+                        <p3>
+                         <a href="${project.source || '#'}" class="subdomain-button" style="margin-bottom: 1em">View Source Code</a>
+                        <div class="description" style="margin-bottom: 5em">${project.description || 'Description not found'}</div>
+                        </p3>
+                        <hr style="width:20%; border-color: white; border-radius: 10px; border-style: dashed; border-width: 2px; margin-bottom: 5em">
+                    `;
+                    container.appendChild(section);
+                });
+            });
+        } catch (error) {
+            console.error('Error loading YAML:', error);
+        }
+    }
+    loadYAML();
+</script>
 </body>
