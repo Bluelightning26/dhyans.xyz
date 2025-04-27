@@ -40,9 +40,9 @@
             const demoField = project.demo || '#';
 
             // Update HTML
-            document.querySelector('.name').innerHTML = `Name: ${nameField}`;
-            document.querySelector('.language').innerHTML = `Language: ${languageField}`;
-            document.querySelector('.description').innerHTML = `Description: ${descriptionField}`;
+            document.querySelector('.name').innerHTML = `${nameField}`;
+            document.querySelector('.language').innerHTML = `Languages: ${languageField}`;
+            document.querySelector('.description').innerHTML = `${descriptionField}`;
             document.querySelector('.subdomain-button').setAttribute('href', sourceField);
             document.querySelector('.project-image').setAttribute('src', imageField);
             document.querySelector('.demo-link').setAttribute('href', demoField);
@@ -65,15 +65,14 @@
 
 
 <p5>
-    <div class="name"></div>
-    <br><br>
+    <div class="name" style="padding-bottom: 0.5em" ></div>
     <div class="language"></div>
 </p5>
 <a href="#" class="demo-link">
     <img src="" alt="Project Image" class="project-image" style="float: right; width: 25%; height:25%;">
 </a>
 <p3>
-    <a href="#" class="subdomain-button">View Source Code!?!</a>
+    <a href="#" class="subdomain-button">View Source Code</a>
     <br>
     <div class="description"></div>
 </p3>

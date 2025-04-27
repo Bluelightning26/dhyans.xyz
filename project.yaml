@@ -17,7 +17,7 @@
 ---
 projects:
   january-25:
-    - name: Test Title
+    - name: Party
       language: Java
       description: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -28,4 +28,11 @@ projects:
       image: https://hc-cdn.hel1.your-objectstorage.com/s/v3/de8dbd60a879e3a50e86fc2c5cbae24502858196_party-orpheus.gif
       demo: https://hack.club/swirl
       source: https://github.com/bluelightning26/swirl
+    - name: Orpheus
+      language: yamlyaml
+      description: >
+        Orphloerm ipsum dolor sit amet, consectetur adipiscing elit,
+      image: https://hc-cdn.hel1.your-objectstorage.com/s/v3/de8dbd60a879e3a50e86fc2c5cbae24502858196_party-orpheus.gif
+      demo: https://forms.hackclub.com/swirl
+      source: https://github.com/bluelightning26/project
 
