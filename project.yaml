@@ -16,15 +16,15 @@
 
 ---
 projects:
-  - month: January
-    name: Test Title
-    language: Java
-    description: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-      in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    image: https://hc-cdn.hel1.your-objectstorage.com/s/v3/de8dbd60a879e3a50e86fc2c5cbae24502858196_party-orpheus.gif
-    demo: https://github.com/bluelightning26/swirl
+  january-25:
+    - name: Test Title
+      language: Java
+      description: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      image: https://hc-cdn.hel1.your-objectstorage.com/s/v3/de8dbd60a879e3a50e86fc2c5cbae24502858196_party-orpheus.gif
+      demo: https://github.com/bluelightning26/swirl
 
