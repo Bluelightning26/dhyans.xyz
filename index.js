@@ -1,4 +1,4 @@
-// Data from Swirl using Unified YSWS Database API
+// Data for Swirl using Unified YSWS Database API
 fetch("https://api2.hackclub.com/v0.1/Unified%20YSWS%20Projects%20DB/YSWS%20Programs/", { method: "GET" })
     .then(response => response.json())
     .then(data => {
