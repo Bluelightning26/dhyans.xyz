@@ -161,10 +161,21 @@ projects:
       demo:
       source: https://github.com/Bluelightning26/Coin-Gamble
 
-    - name:
-      language:
+    - name: (API TEST) Swirl
+      language: HTML + CSS
       description: >
-        (text goes here)
+        View Source Code
+
+        An official indefinite YSWS for Hack Club!
+        <br>
+        Teenagers can get a free ice cream grant for shipping a static website with features!
+        This project goes far past simple web-dev
+        as many considerations / resources had to be created
+        to make this as workshop friendly as possible.
+        This project will be continually maintained by me,
+        for the foreseeable future.
+        Currently <span id="swirl-ships">Loading API...</span> submissions have been approved!
+        Learn more on the <a href=https://swirl.hackclub.com>the official website</a>!
       image:
       demo:
       source:
