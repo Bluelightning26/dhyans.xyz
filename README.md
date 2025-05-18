@@ -1,9 +1,10 @@
 # My Website!
 
 ***
-## My first personal website with a custom domain!
+## My first personal website!
+![](https://hackatime-badge.hackclub.com/U0824G9PTFE/Website?label=dhyans.xyz)
 
-**My first nice looking website!**
+**My first nice looking website with a custom domain!**
 
 I learned a lot about web hosting when developing this, 
 and how CloudFlare and Gmail work on a deeper level.
