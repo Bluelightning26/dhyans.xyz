@@ -188,7 +188,17 @@ projects:
       demo:
       source:
 
-    - name:
+
+
+
+
+
+
+
+
+
+  march-25:
+    - name: (Scrapyard) HackAcademy
       language:
       description: >
         (text goes here)
@@ -196,7 +206,7 @@ projects:
       demo:
       source:
 
-    - name:
+    - name: Swirl
       language:
       description: >
         (text goes here)
@@ -204,7 +214,8 @@ projects:
       demo:
       source:
 
-    - name:
+  april-25:
+    - name: Blu's Quick Tag
       language:
       description: >
         (text goes here)
@@ -212,7 +223,8 @@ projects:
       demo:
       source:
 
-    - name:
+  june-25:
+    - name: Glider
       language:
       description: >
         (text goes here)
@@ -220,10 +232,52 @@ projects:
       demo:
       source:
 
-    - name:
+    - name: Tools
       language:
       description: >
         (text goes here)
       image:
       demo:
       source:
+
+    - name: Penguin Trinket
+      language:
+      description: >
+        (text goes here)
+      image:
+      demo:
+      source:
+
+    - name: Neoboard
+      language:
+      description: >
+        (text goes here)
+      image:
+      demo:
+      source:
+
+  july-25:
+    - name: Spinny Snake 3d
+      language:
+      description: >
+        (text goes here)
+      image:
+      demo:
+      source:
+
+    - name: Battery Box
+      language:
+      description: >
+        (text goes here)
+      image:
+      demo:
+      source:
+
+    - name: ai.dhyans.xyz
+      language:
+      description: >
+        (text goes here)
+      image:
+      demo:
+      source:
+
